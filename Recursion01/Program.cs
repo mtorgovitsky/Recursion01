@@ -6,7 +6,11 @@ namespace Recursion01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(SumRecurs(369));
+            //Check if it's working:
+            Console.WriteLine("The sum of 369: {0}", SumRecurs(369));
+            Console.WriteLine("The sum of 653 {0}", SumRecurs(653));
+            Console.WriteLine("The sum of 342: {0}", SumRecurs(342));
+            Console.ReadKey();
         }
 
         #region Recursive Sum
